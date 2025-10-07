@@ -1,0 +1,93 @@
+.container {
+  margin: 0px;
+  width: 25%;
+}
+
+.flexor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageWrapper {
+  border-radius: 20px;
+  margin-bottom: 16px;
+  min-height: 250px;
+  text-align: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.info {
+  margin: 8px 0;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 4px 0;
+  color: gray;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.star {
+  color: orange;
+  margin-right: 6px;
+  justify-content: left;
+}
+
+.rating span {
+  font-size: 16px;
+  justify-content: left;
+  font-weight: 600;
+}
+
+.count {
+  margin-left: 6px;
+  color: gray;
+}
+
+.iconsRow {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+.featureIcon {
+  border-radius: 50%;
+  font-size: 24px;
+  height: fit-content;
+  padding: 8px 8px 1px 8px;
+  background-color: var(--secondary-color);
+  box-shadow: 1px 1px 5px var(--primary-color-hover);
+}
+
+@media (max-width: 1480px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: 100%;
+  }
+  .flexor {
+    margin-bottom: 20px;
+  }
+  .info h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+.sorting_button_container {
+  position: relative;
+  display: inline-block;
+}
+
+.main_button {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 12px;
+  padding: 10px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}

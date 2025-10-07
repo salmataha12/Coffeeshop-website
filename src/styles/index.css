@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #c67c4e;
+  --primary-color-hover: #b66a3f;
+  --secondary-color: #edd6c8;
+  --background-color: #ffffff;
+  --contrast-color: #313131;
+  --contrast-offset-color: #3e3e3e;
+  --offset-color: #e3e3e3;
+
+  --size-title: 3.2rem;
+  --size-subtitle: 2rem;
+  --size-text: 1rem;
+  --size-button: 1.2rem;
+  --size-input: 1.1rem;
+  --size-subtext: 0.8rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  margin: 0;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: var(--size-title);
+}
+
+.subtitle {
+  font-size: var(--size-subtitle);
+}
+
+.button {
+  font-size: var(--size-button);
+}
+
+.input {
+  font-size: var(--size-input);
+}
+
+.subtext {
+  font-size: var(--size-subtext);
+  color: gray;
+}

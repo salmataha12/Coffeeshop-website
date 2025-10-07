@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+  background-color: #c67c4e;
+  border: none;
+  padding: 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #b27046;
+}
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.button_icon {
+  color: inherit;
+}
+
+.button_text {
+  font-family: 'Sora';
+  text-align: center;
+}

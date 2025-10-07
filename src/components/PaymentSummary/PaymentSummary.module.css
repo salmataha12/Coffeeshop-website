@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.paymentSummary {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Sora', sans-serif;
+  text-align: left;      
+}
+
+
+.paymentSummary h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+
+.summaryItem {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+
+.summaryItem span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.summaryItem del {
+  margin-right: 6px;
+  color: #9a9a9a;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.discounted {
+  font-weight: 700;
+}

@@ -1,0 +1,115 @@
+.driver_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #fff;
+  width: 100%;
+ font-family:sans-serif ;
+}
+
+.driver_avatar img {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.driver_avatar span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: #eee;
+  font-weight: bold;
+}
+
+.driver_info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.driver_info p {
+  margin: 0.2rem 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.call_btn {
+  margin-left: auto;
+  background: #eeefef;
+  color: #080808;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.call_dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+   max-width: 400px;
+  width: 90%;
+  
+}
+
+.call_dialog h4{
+  text-align: center;
+}
+
+.call_dialog .dialog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.phone_box {
+  display: flex;
+  justify-content:center;
+  margin: 1rem 0;
+  background: #f8f8f8;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call_now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #28a745;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 80px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.close{
+  position: absolute;
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call_logo{
+  rotate: 90deg;
+}
+
+

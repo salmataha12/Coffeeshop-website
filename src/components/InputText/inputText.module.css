@@ -1,0 +1,19 @@
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: rgb(229, 144, 160);
+}
+
+.input {
+  border: 2px solid rgba(232, 232, 232);
+  border-radius: 16px;
+  color: black;
+  padding: 20px 12px;
+  font-family: 'Sora';
+  width: 100%;
+  box-sizing: border-box;
+}

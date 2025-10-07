@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Ahmed Mostafa",
+    "photoUrl": "",
+    "description": "personal car",
+    "phone": "+20 100 555 1234"
+  },
+  {
+    "id": 2,
+    "name": "Sara El Sayed",
+    "photoUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=256&h=256&fit=crop&auto=format",
+    "description": "personal courier",
+    "phone": "+20 101 888 5678"
+  },
+  {
+    "id": 3,
+    "name": "Mohamed Ali",
+    "photoUrl": "",
+    "description": "personal car",
+    "phone": "+20 120 333 4444"
+  }
+]

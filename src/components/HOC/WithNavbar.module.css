@@ -1,0 +1,19 @@
+.with_navbar_container {
+    position: relative;
+    height: fit-content;
+    min-height: 100vh;
+    width: auto;
+    padding-bottom: 56px;
+}
+
+@media (max-width: 768px) {
+    .with_navbar_container {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .with_navbar_container {
+        padding-bottom: 64px;
+    }
+}

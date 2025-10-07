@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon {
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+.container {
+  font-family: sans-serif;
+  padding: 16px;
+  max-width: 350px;
+  margin: auto;
+}
+.center {
+  text-align: center;
+}

@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  padding: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f8f8f8;
+}
+
+.indicator {
+  width: 45px;
+  height: 5px;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 24px;
+  margin: 0;
+}
+
+.address {
+  font-size: 18px;
+  margin: 5px 0 15px;
+}
+
+.card {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.progressBar {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.segmentCompleted,
+.segmentPending {
+  width: 25%;
+  height: 5px;
+  margin-right: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+.segmentCompleted {
+  background-color: green;
+}
+
+.segmentPending {
+  background-color: grey;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.statusText {
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.statusSubtext {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 12px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 16px;
+  }
+}

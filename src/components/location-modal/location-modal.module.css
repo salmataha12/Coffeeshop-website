@@ -1,0 +1,264 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.dropdown {
+  background: white;
+  border-radius: 12px;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 16px;
+  animation: slideIn 0.3s ease-out;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.locationDetection {
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.locationDetectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.locationDetectionTitle {
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.locationDetectionStatus {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.locationDetectionStatus.detected {
+  color: #059669;
+}
+
+.currentLocation {
+  margin-bottom: 24px;
+  padding: 12px;
+  background-color: #f9f2ed;
+  border-radius: 8px;
+}
+
+.currentLocationLabel {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.currentLocationValue {
+  font-weight: 500;
+  color: #1e40af;
+  font-size: 0.875rem;
+}
+
+/* Saved Locations Section */
+.savedLocationsSection {
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.savedLocationsSection h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 12px 0;
+}
+
+.savedLocationsDropdown {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  background-color: white;
+  color: #1f2937;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.savedLocationsDropdown:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.savedLocationsDropdown:hover {
+  border-color: #9ca3af;
+}
+
+.savedLocationsDropdown option {
+  padding: 8px;
+  font-size: 0.875rem;
+}
+
+.savedLocationsDropdown option:disabled {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.inputGroup {
+  margin-bottom: 16px;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.inputField::placeholder {
+  color: #9ca3af;
+}
+
+.buttonGroup {
+  display: flex;
+  width: auto;
+  gap: 12px;
+}
+
+.locationIcon {
+  font-size: 1.125rem;
+}
+
+.locationIcon.detected {
+  color: #10b981;
+}
+
+.locationIcon.notDetected {
+  color: #9ca3af;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.main_button {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 12px;
+  padding: 15px 13px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .dropdown {
+    margin: 0 12px;
+    padding: 20px;
+    max-width: calc(100vw - 24px);
+  }
+
+  .header h3 {
+    font-size: 1.125rem;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .dropdown {
+    max-width: 90vw;
+  }
+}

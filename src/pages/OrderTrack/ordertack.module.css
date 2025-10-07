@@ -1,0 +1,58 @@
+.orderTrackContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mapSection {
+  width: 100%;
+  height: 60%;
+}
+
+.deliveryTimeSection {
+  display: flex;
+  justify-content: center;
+  
+  background-color: #fff;
+}
+
+.driverInfoSection {
+  height: 10%;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+}
+
+
+
+.backButton {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 1000;
+  transition: background 0.2s, box-shadow 0.2s;
+  font-size: 1.7rem;
+  color: #333;
+}
+
+.backButton:hover, .backButton:focus {
+  background: #f5f5f5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  outline: none;
+}
+
+
+
+

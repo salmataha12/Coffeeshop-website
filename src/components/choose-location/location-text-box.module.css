@@ -1,0 +1,232 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  gap: clamp(2px, 1vw, 6px);
+  max-width: 100%;
+  position: relative;
+}
+.label {
+  color: #9aa0a6;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: clamp(0.7rem, 1.2vw, 0.95rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(4px, 1.5vw, 12px);
+
+  width: 100%;
+  min-width: 0;
+  padding: clamp(4px, 1vw, 8px);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+
+  transition: all 0.2s ease;
+  
+  /* Remove all focus and selection styles */
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.box:focus {
+  outline: none;
+}
+
+.box:active {
+  outline: none;
+}
+
+.locationContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.text {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-size: clamp(0.85rem, 2.2vw, 1.1rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: #e8eaed;
+
+  transition: font-size 0.2s ease;
+}
+
+.loadingText {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  font-size: clamp(0.85rem, 2.2vw, 1.1rem);
+  font-weight: 600;
+  line-height: 1.3;
+  color: #9aa0a6;
+  font-style: italic;
+
+  transition: font-size 0.2s ease;
+}
+
+.locationIcon {
+  flex: 0 0 auto;
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+  color: #10b981;
+  min-width: 0.7rem;
+}
+
+.arrow {
+  flex: 0 0 auto;
+  font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+  color: #9aa0a6;
+  transform-origin: center;
+  transition: transform 160ms ease;
+  min-width: 0.7rem;
+}
+
+.arrowRotated {
+  transform: rotate(180deg);
+}
+
+.box:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 3px;
+  }
+
+  .label {
+    font-size: 0.7rem;
+  }
+
+  .text {
+    font-size: 0.85rem;
+  }
+
+  .arrow {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    gap: 4px;
+  }
+
+  .label {
+    font-size: 0.8rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .arrow {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    gap: 5px;
+  }
+
+  .label {
+    font-size: 0.85rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .arrow {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    gap: 6px;
+  }
+
+  .label {
+    font-size: 0.9rem;
+  }
+
+  .text {
+    font-size: 1.05rem;
+  }
+
+  .arrow {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .text {
+    font-size: 1.1rem;
+  }
+
+  .label {
+    font-size: 0.95rem;
+  }
+}
+
+:where(.container) {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (prefers-contrast: high) {
+  .text {
+    color: #ffffff;
+  }
+
+  .label {
+    color: #cccccc;
+  }
+
+  .arrow {
+    color: #cccccc;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .box,
+  .arrow,
+  .text {
+    transition: none;
+  }
+}
+
+.errorText {
+  color: #ef4444;
+  font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+}
+

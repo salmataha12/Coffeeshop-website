@@ -1,0 +1,1154 @@
+[
+    {
+        "id": 1,
+        "name": "Vanilla Latte",
+        "description": "Vanilla flavored latte beverage.",
+          "imageUrl": "https://picsum.photos/200?random=1",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.96
+            },
+            {
+                "name": "medium",
+                "price": 6.46
+            },
+            {
+                "name": "large",
+                "price": 6.96
+            }
+        ],
+        "defaultPrice": 5.96
+    },
+    {
+        "id": 2,
+        "name": "Caramel Latte",
+        "description": "Caramel flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=2",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.3,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.13
+            },
+            {
+                "name": "medium",
+                "price": 4.63
+            },
+            {
+                "name": "large",
+                "price": 5.13
+            }
+        ],
+        "defaultPrice": 4.13
+    },
+    {
+        "id": 3,
+        "name": "Hazelnut Latte",
+        "description": "Hazelnut flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=3",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.6,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.61
+            },
+            {
+                "name": "medium",
+                "price": 4.11
+            },
+            {
+                "name": "large",
+                "price": 4.61
+            }
+        ],
+        "defaultPrice": 3.61
+    },
+    {
+        "id": 4,
+        "name": "Mocha Latte",
+        "description": "Mocha flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=4",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.6,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.61
+            },
+            {
+                "name": "medium",
+                "price": 5.11
+            },
+            {
+                "name": "large",
+                "price": 5.61
+            }
+        ],
+        "defaultPrice": 4.61
+    },
+    {
+        "id": 5,
+        "name": "Pumpkin Spice Latte",
+        "description": "Pumpkin Spice flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=5",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.08
+            },
+            {
+                "name": "medium",
+                "price": 3.58
+            },
+            {
+                "name": "large",
+                "price": 4.08
+            }
+        ],
+        "defaultPrice": 3.08
+    },
+    {
+        "id": 6,
+        "name": "Cinnamon Latte",
+        "description": "Cinnamon flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=6",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.69
+            },
+            {
+                "name": "medium",
+                "price": 6.19
+            },
+            {
+                "name": "large",
+                "price": 6.69
+            }
+        ],
+        "defaultPrice": 5.69
+    },
+    {
+        "id": 7,
+        "name": "Irish Cream Latte",
+        "description": "Irish Cream flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=7",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.13
+            },
+            {
+                "name": "medium",
+                "price": 4.63
+            },
+            {
+                "name": "large",
+                "price": 5.13
+            }
+        ],
+        "defaultPrice": 4.13
+    },
+    {
+        "id": 8,
+        "name": "Almond Latte",
+        "description": "Almond flavored latte beverage.",
+        "imageUrl": "https://picsum.photos/200?random=8",
+        "category": "latte",
+        "isAvailable": true,
+        "rating": 5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.76
+            },
+            {
+                "name": "medium",
+                "price": 6.26
+            },
+            {
+                "name": "large",
+                "price": 6.76
+            }
+        ],
+        "defaultPrice": 5.76
+    },
+    {
+        "id": 9,
+        "name": "Classic Cappuccino",
+        "description": "Classic style cappuccino.",
+        "imageUrl": "https://picsum.photos/200?random=9",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.6,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 2.73
+            },
+            {
+                "name": "medium",
+                "price": 3.23
+            },
+            {
+                "name": "large",
+                "price": 3.73
+            }
+        ],
+        "defaultPrice": 2.73
+    },
+    {
+        "id": 10,
+        "name": "Vanilla Cappuccino",
+        "description": "Vanilla flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=10",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.6,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.04
+            },
+            {
+                "name": "medium",
+                "price": 4.54
+            },
+            {
+                "name": "large",
+                "price": 5.04
+            }
+        ],
+        "defaultPrice": 4.04
+    },
+    {
+        "id": 11,
+        "name": "Caramel Cappuccino",
+        "description": "Caramel flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=11",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.4,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.62
+            },
+            {
+                "name": "medium",
+                "price": 6.12
+            },
+            {
+                "name": "large",
+                "price": 6.62
+            }
+        ],
+        "defaultPrice": 5.62
+    },
+    {
+        "id": 12,
+        "name": "Hazelnut Cappuccino",
+        "description": "Hazelnut flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=12",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.4,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.07
+            },
+            {
+                "name": "medium",
+                "price": 5.57
+            },
+            {
+                "name": "large",
+                "price": 6.07
+            }
+        ],
+        "defaultPrice": 5.07
+    },
+    {
+        "id": 13,
+        "name": "Chocolate Cappuccino",
+        "description": "Chocolate flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=13",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.01
+            },
+            {
+                "name": "medium",
+                "price": 4.51
+            },
+            {
+                "name": "large",
+                "price": 5.01
+            }
+        ],
+        "defaultPrice": 4.01
+    },
+    {
+        "id": 14,
+        "name": "Cinnamon Cappuccino",
+        "description": "Cinnamon flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=14",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.42
+            },
+            {
+                "name": "medium",
+                "price": 5.92
+            },
+            {
+                "name": "large",
+                "price": 6.42
+            }
+        ],
+        "defaultPrice": 5.42
+    },
+    {
+        "id": 15,
+        "name": "Almond Cappuccino",
+        "description": "Almond flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=15",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.98
+            },
+            {
+                "name": "medium",
+                "price": 5.48
+            },
+            {
+                "name": "large",
+                "price": 5.98
+            }
+        ],
+        "defaultPrice": 4.98
+    },
+    {
+        "id": 16,
+        "name": "Honey Cappuccino",
+        "description": "Honey flavored cappuccino beverage.",
+        "imageUrl": "https://picsum.photos/200?random=16",
+        "category": "cappuccino",
+        "isAvailable": true,
+        "rating": 5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.06
+            },
+            {
+                "name": "medium",
+                "price": 5.56
+            },
+            {
+                "name": "large",
+                "price": 6.06
+            }
+        ],
+        "defaultPrice": 5.06
+    },
+    {
+        "id": 17,
+        "name": "Single Espresso",
+        "description": "Single style espresso.",
+        "imageUrl": "https://picsum.photos/200?random=17",
+        "category": "espresso",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "single",
+                "price": 3.05
+            }
+        ],
+        "defaultPrice": 3.05
+    },
+    {
+        "id": 18,
+        "name": "Double Espresso",
+        "description": "Double style espresso.",
+        "imageUrl": "https://picsum.photos/200?random=18",
+        "category": "espresso",
+        "isAvailable": true,
+        "rating": 4,
+        "sizes": [
+            {
+                "name": "double",
+                "price": 3.42
+            }
+        ],
+        "defaultPrice": 3.42
+    },
+    {
+        "id": 19,
+        "name": "Ristretto Espresso",
+        "description": "Ristretto flavored espresso beverage.",
+        "imageUrl": "https://picsum.photos/200?random=19",
+        "category": "espresso",
+        "isAvailable": true,
+        "rating": 4.7,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.27
+            }
+        ],
+        "defaultPrice": 3.27
+    },
+    {
+        "id": 20,
+        "name": "Lungo Espresso",
+        "description": "Lungo flavored espresso beverage.",
+        "imageUrl": "https://picsum.photos/200?random=20",
+        "category": "espresso",
+        "isAvailable": true,
+        "rating": 4.9,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.8
+            }
+        ],
+        "defaultPrice": 3.8
+    },
+    {
+        "id": 21,
+        "name": "Classic Americano",
+        "description": "Classic style americano.",
+        "imageUrl": "https://picsum.photos/200?random=21",
+        "category": "americano",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.02
+            },
+            {
+                "name": "medium",
+                "price": 5.52
+            },
+            {
+                "name": "large",
+                "price": 6.02
+            }
+        ],
+        "defaultPrice": 5.02
+    },
+    {
+        "id": 22,
+        "name": "Iced Americano",
+        "description": "Iced flavored americano beverage.",
+        "imageUrl": "https://picsum.photos/200?random=22",
+        "category": "americano",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.35
+            },
+            {
+                "name": "medium",
+                "price": 3.85
+            },
+            {
+                "name": "large",
+                "price": 4.35
+            }
+        ],
+        "defaultPrice": 3.35
+    },
+    {
+        "id": 23,
+        "name": "Classic Mocha",
+        "description": "Classic style mocha.",
+        "imageUrl": "https://picsum.photos/200?random=23",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.7,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.13
+            },
+            {
+                "name": "medium",
+                "price": 3.63
+            },
+            {
+                "name": "large",
+                "price": 4.13
+            }
+        ],
+        "defaultPrice": 3.13
+    },
+    {
+        "id": 24,
+        "name": "White Chocolate Mocha",
+        "description": "White Chocolate flavored mocha beverage.",
+        "imageUrl": "https://picsum.photos/200?random=24",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.8
+            },
+            {
+                "name": "medium",
+                "price": 4.3
+            },
+            {
+                "name": "large",
+                "price": 4.8
+            }
+        ],
+        "defaultPrice": 3.8
+    },
+    {
+        "id": 25,
+        "name": "Caramel Mocha",
+        "description": "Caramel flavored mocha beverage.",
+        "imageUrl": "https://picsum.photos/200?random=25",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.4,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.14
+            },
+            {
+                "name": "medium",
+                "price": 3.64
+            },
+            {
+                "name": "large",
+                "price": 4.14
+            }
+        ],
+        "defaultPrice": 3.14
+    },
+    {
+        "id": 26,
+        "name": "Mint Mocha",
+        "description": "Mint flavored mocha beverage.",
+        "imageUrl": "https://picsum.photos/200?random=26",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.48
+            },
+            {
+                "name": "medium",
+                "price": 3.98
+            },
+            {
+                "name": "large",
+                "price": 4.48
+            }
+        ],
+        "defaultPrice": 3.48
+    },
+    {
+        "id": 27,
+        "name": "Hazelnut Mocha",
+        "description": "Hazelnut flavored mocha beverage.",
+        "imageUrl": "https://picsum.photos/200?random=27",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.4
+            },
+            {
+                "name": "medium",
+                "price": 4.9
+            },
+            {
+                "name": "large",
+                "price": 5.4
+            }
+        ],
+        "defaultPrice": 4.4
+    },
+    {
+        "id": 28,
+        "name": "Dark Chocolate Mocha",
+        "description": "Dark Chocolate flavored mocha beverage.",
+        "imageUrl": "https://picsum.photos/200?random=28",
+        "category": "mocha",
+        "isAvailable": true,
+        "rating": 4.5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 2.95
+            },
+            {
+                "name": "medium",
+                "price": 3.45
+            },
+            {
+                "name": "large",
+                "price": 3.95
+            }
+        ],
+        "defaultPrice": 2.95
+    },
+    {
+        "id": 29,
+        "name": "Mocha Frappe",
+        "description": "Mocha flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=29",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.8,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 3.03
+            },
+            {
+                "name": "large",
+                "price": 3.53
+            }
+        ],
+        "defaultPrice": 3.03
+    },
+    {
+        "id": 30,
+        "name": "Caramel Frappe",
+        "description": "Caramel flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=30",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 5.18
+            },
+            {
+                "name": "large",
+                "price": 5.68
+            }
+        ],
+        "defaultPrice": 5.18
+    },
+    {
+        "id": 31,
+        "name": "Vanilla Frappe",
+        "description": "Vanilla flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=31",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.9,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 5.9
+            },
+            {
+                "name": "large",
+                "price": 6.4
+            }
+        ],
+        "defaultPrice": 5.9
+    },
+    {
+        "id": 32,
+        "name": "Matcha Frappe",
+        "description": "Matcha flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=32",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.3,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 2.87
+            },
+            {
+                "name": "large",
+                "price": 3.37
+            }
+        ],
+        "defaultPrice": 2.87
+    },
+    {
+        "id": 33,
+        "name": "Oreo Frappe",
+        "description": "Oreo flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=33",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 4.75
+            },
+            {
+                "name": "large",
+                "price": 5.25
+            }
+        ],
+        "defaultPrice": 4.75
+    },
+    {
+        "id": 34,
+        "name": "Strawberry Frappe",
+        "description": "Strawberry flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=34",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 5.35
+            },
+            {
+                "name": "large",
+                "price": 5.85
+            }
+        ],
+        "defaultPrice": 5.35
+    },
+    {
+        "id": 35,
+        "name": "Coffee Frappe",
+        "description": "Coffee flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=35",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 5.51
+            },
+            {
+                "name": "large",
+                "price": 6.01
+            }
+        ],
+        "defaultPrice": 5.51
+    },
+    {
+        "id": 36,
+        "name": "Chocolate Frappe",
+        "description": "Chocolate flavored frappe beverage.",
+        "imageUrl": "https://picsum.photos/200?random=36",
+        "category": "frappe",
+        "isAvailable": true,
+        "rating": 4.5,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 3.08
+            },
+            {
+                "name": "large",
+                "price": 3.58
+            }
+        ],
+        "defaultPrice": 3.08
+    },
+    {
+        "id": 37,
+        "name": "Peach Iced-tea",
+        "description": "Peach flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=37",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.9,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 4.09
+            },
+            {
+                "name": "large",
+                "price": 4.59
+            }
+        ],
+        "defaultPrice": 4.09
+    },
+    {
+        "id": 38,
+        "name": "Lemon Iced-tea",
+        "description": "Lemon flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=38",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 3.97
+            },
+            {
+                "name": "large",
+                "price": 4.47
+            }
+        ],
+        "defaultPrice": 3.97
+    },
+    {
+        "id": 39,
+        "name": "Green Iced-tea",
+        "description": "Green flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=39",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.9,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 3.55
+            },
+            {
+                "name": "large",
+                "price": 4.05
+            }
+        ],
+        "defaultPrice": 3.55
+    },
+    {
+        "id": 40,
+        "name": "Berry Iced-tea",
+        "description": "Berry flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=40",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.5,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 4.6
+            },
+            {
+                "name": "large",
+                "price": 5.1
+            }
+        ],
+        "defaultPrice": 4.6
+    },
+    {
+        "id": 41,
+        "name": "Mango Iced-tea",
+        "description": "Mango flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=41",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 3.97
+            },
+            {
+                "name": "large",
+                "price": 4.47
+            }
+        ],
+        "defaultPrice": 3.97
+    },
+    {
+        "id": 42,
+        "name": "Passionfruit Iced-tea",
+        "description": "Passionfruit flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=42",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 5.89
+            },
+            {
+                "name": "large",
+                "price": 6.39
+            }
+        ],
+        "defaultPrice": 5.89
+    },
+    {
+        "id": 43,
+        "name": "Raspberry Iced-tea",
+        "description": "Raspberry flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=43",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.3,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 4.05
+            },
+            {
+                "name": "large",
+                "price": 4.55
+            }
+        ],
+        "defaultPrice": 4.05
+    },
+    {
+        "id": 44,
+        "name": "Mint Iced-tea",
+        "description": "Mint flavored iced-tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=44",
+        "category": "iced-tea",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "medium",
+                "price": 4.09
+            },
+            {
+                "name": "large",
+                "price": 4.59
+            }
+        ],
+        "defaultPrice": 4.09
+    },
+    {
+        "id": 45,
+        "name": "Black Tea",
+        "description": "Black flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=45",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.5,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.49
+            },
+            {
+                "name": "medium",
+                "price": 3.99
+            },
+            {
+                "name": "large",
+                "price": 4.49
+            }
+        ],
+        "defaultPrice": 3.49
+    },
+    {
+        "id": 46,
+        "name": "Green Tea",
+        "description": "Green flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=46",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.05
+            },
+            {
+                "name": "medium",
+                "price": 4.55
+            },
+            {
+                "name": "large",
+                "price": 5.05
+            }
+        ],
+        "defaultPrice": 4.05
+    },
+    {
+        "id": 47,
+        "name": "Chai Tea",
+        "description": "Chai flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=47",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.2,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 3.49
+            },
+            {
+                "name": "medium",
+                "price": 3.99
+            },
+            {
+                "name": "large",
+                "price": 4.49
+            }
+        ],
+        "defaultPrice": 3.49
+    },
+    {
+        "id": 48,
+        "name": "Matcha Tea",
+        "description": "Matcha flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=48",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.7,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.57
+            },
+            {
+                "name": "medium",
+                "price": 6.07
+            },
+            {
+                "name": "large",
+                "price": 6.57
+            }
+        ],
+        "defaultPrice": 5.57
+    },
+    {
+        "id": 49,
+        "name": "Herbal Tea",
+        "description": "Herbal flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=49",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 2.64
+            },
+            {
+                "name": "medium",
+                "price": 3.14
+            },
+            {
+                "name": "large",
+                "price": 3.64
+            }
+        ],
+        "defaultPrice": 2.64
+    },
+    {
+        "id": 50,
+        "name": "Chamomile Tea",
+        "description": "Chamomile flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=50",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.99
+            },
+            {
+                "name": "medium",
+                "price": 5.49
+            },
+            {
+                "name": "large",
+                "price": 5.99
+            }
+        ],
+        "defaultPrice": 4.99
+    },
+    {
+        "id": 51,
+        "name": "Earl Grey Tea",
+        "description": "Earl Grey flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=51",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.1,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 4.3
+            },
+            {
+                "name": "medium",
+                "price": 4.8
+            },
+            {
+                "name": "large",
+                "price": 5.3
+            }
+        ],
+        "defaultPrice": 4.3
+    },
+    {
+        "id": 52,
+        "name": "Peppermint Tea",
+        "description": "Peppermint flavored tea beverage.",
+        "imageUrl": "https://picsum.photos/200?random=52",
+        "category": "tea",
+        "isAvailable": true,
+        "rating": 4.3,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 5.62
+            },
+            {
+                "name": "medium",
+                "price": 6.12
+            },
+            {
+                "name": "large",
+                "price": 6.62
+            }
+        ],
+        "defaultPrice": 5.62
+    }
+]

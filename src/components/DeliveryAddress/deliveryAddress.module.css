@@ -1,0 +1,58 @@
+.address_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.address_title {
+  color: #242424;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.current_address {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.coordinates {
+  font-size: 12px;
+  color: #a2a2a2;
+  margin-bottom: 15px;
+  margin-top: 4px;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+}
+
+.dropdownWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dropdownItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}

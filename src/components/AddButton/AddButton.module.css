@@ -1,0 +1,23 @@
+.add_btn {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  position: relative;
+}
+
+.add_button_style {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.number_disp {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;  
+}
