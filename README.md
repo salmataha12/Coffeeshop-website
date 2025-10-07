@@ -20,11 +20,12 @@ The website allows users to browse coffee products, manage favorites, place orde
 
 ## 🛠 Tech Stack
 
-- **React** (UI framework)
-- **Vite** (fast development & build tool)
-- **JavaScript (ES6+)**
-- **CSS3 / Flexbox / Grid**
-- **Leaflet.js** (for map rendering)
+- **React** — Component-based frontend framework  
+- **Vite** — Super-fast development build tool  
+- **CSS Modules**  — For modern responsive styling  
+- **Leaflet** — For delivery tracking  
+- **JavaScript (ES6+)** — Core scripting  
+- **Prettier & ESLint** — Code formatting and linting
 - **JSON** (for product and order data)
 
 ---
